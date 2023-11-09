@@ -1,0 +1,811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCFBD19C2AFD060A006206A5 /* FlyingTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFBD19B2AFD060A006206A5 /* FlyingTimeApp.swift */; };
+		CCFBD19E2AFD060A006206A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFBD19D2AFD060A006206A5 /* ContentView.swift */; };
+		CCFBD1A02AFD060A006206A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCFBD19F2AFD060A006206A5 /* Assets.xcassets */; };
+		CCFBD1A42AFD060A006206A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCFBD1A32AFD060A006206A5 /* Preview Assets.xcassets */; };
+		CCFBD1AE2AFD060B006206A5 /* FlyingTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFBD1AD2AFD060B006206A5 /* FlyingTimeTests.swift */; };
+		CCFBD1B82AFD060B006206A5 /* FlyingTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFBD1B72AFD060B006206A5 /* FlyingTimeUITests.swift */; };
+		CCFBD1BA2AFD060B006206A5 /* FlyingTimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFBD1B92AFD060B006206A5 /* FlyingTimeUITestsLaunchTests.swift */; };
+		CCFBD1CD2AFD0639006206A5 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCFBD1CC2AFD0639006206A5 /* WidgetKit.framework */; };
+		CCFBD1CF2AFD0639006206A5 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCFBD1CE2AFD0639006206A5 /* SwiftUI.framework */; };
+		CCFBD1D22AFD0639006206A5 /* FlyingTimeWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFBD1D12AFD0639006206A5 /* FlyingTimeWidgetBundle.swift */; };
+		CCFBD1D42AFD0639006206A5 /* FlyingTimeWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFBD1D32AFD0639006206A5 /* FlyingTimeWidgetLiveActivity.swift */; };
+		CCFBD1D62AFD0639006206A5 /* FlyingTimeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFBD1D52AFD0639006206A5 /* FlyingTimeWidget.swift */; };
+		CCFBD1D82AFD0639006206A5 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFBD1D72AFD0639006206A5 /* AppIntent.swift */; };
+		CCFBD1DA2AFD063A006206A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCFBD1D92AFD063A006206A5 /* Assets.xcassets */; };
+		CCFBD1DE2AFD063A006206A5 /* FlyingTimeWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CCFBD1CA2AFD0639006206A5 /* FlyingTimeWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCFBD1AA2AFD060B006206A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCFBD1902AFD060A006206A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCFBD1972AFD060A006206A5;
+			remoteInfo = FlyingTime;
+		};
+		CCFBD1B42AFD060B006206A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCFBD1902AFD060A006206A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCFBD1972AFD060A006206A5;
+			remoteInfo = FlyingTime;
+		};
+		CCFBD1DC2AFD063A006206A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCFBD1902AFD060A006206A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCFBD1C92AFD0639006206A5;
+			remoteInfo = FlyingTimeWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CCFBD1E22AFD063A006206A5 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CCFBD1DE2AFD063A006206A5 /* FlyingTimeWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CCFBD1982AFD060A006206A5 /* FlyingTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyingTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCFBD19B2AFD060A006206A5 /* FlyingTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingTimeApp.swift; sourceTree = "<group>"; };
+		CCFBD19D2AFD060A006206A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CCFBD19F2AFD060A006206A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCFBD1A12AFD060A006206A5 /* FlyingTime.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlyingTime.entitlements; sourceTree = "<group>"; };
+		CCFBD1A32AFD060A006206A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CCFBD1A92AFD060B006206A5 /* FlyingTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyingTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCFBD1AD2AFD060B006206A5 /* FlyingTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingTimeTests.swift; sourceTree = "<group>"; };
+		CCFBD1B32AFD060B006206A5 /* FlyingTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyingTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCFBD1B72AFD060B006206A5 /* FlyingTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingTimeUITests.swift; sourceTree = "<group>"; };
+		CCFBD1B92AFD060B006206A5 /* FlyingTimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingTimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CCFBD1CA2AFD0639006206A5 /* FlyingTimeWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FlyingTimeWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCFBD1CC2AFD0639006206A5 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		CCFBD1CE2AFD0639006206A5 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		CCFBD1D12AFD0639006206A5 /* FlyingTimeWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingTimeWidgetBundle.swift; sourceTree = "<group>"; };
+		CCFBD1D32AFD0639006206A5 /* FlyingTimeWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingTimeWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		CCFBD1D52AFD0639006206A5 /* FlyingTimeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingTimeWidget.swift; sourceTree = "<group>"; };
+		CCFBD1D72AFD0639006206A5 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		CCFBD1D92AFD063A006206A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCFBD1DB2AFD063A006206A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCFBD1952AFD060A006206A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFBD1A62AFD060B006206A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFBD1B02AFD060B006206A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFBD1C72AFD0639006206A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFBD1CF2AFD0639006206A5 /* SwiftUI.framework in Frameworks */,
+				CCFBD1CD2AFD0639006206A5 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCFBD18F2AFD060A006206A5 = {
+			isa = PBXGroup;
+			children = (
+				CCFBD19A2AFD060A006206A5 /* FlyingTime */,
+				CCFBD1AC2AFD060B006206A5 /* FlyingTimeTests */,
+				CCFBD1B62AFD060B006206A5 /* FlyingTimeUITests */,
+				CCFBD1D02AFD0639006206A5 /* FlyingTimeWidget */,
+				CCFBD1CB2AFD0639006206A5 /* Frameworks */,
+				CCFBD1992AFD060A006206A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCFBD1992AFD060A006206A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCFBD1982AFD060A006206A5 /* FlyingTime.app */,
+				CCFBD1A92AFD060B006206A5 /* FlyingTimeTests.xctest */,
+				CCFBD1B32AFD060B006206A5 /* FlyingTimeUITests.xctest */,
+				CCFBD1CA2AFD0639006206A5 /* FlyingTimeWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCFBD19A2AFD060A006206A5 /* FlyingTime */ = {
+			isa = PBXGroup;
+			children = (
+				CCFBD19B2AFD060A006206A5 /* FlyingTimeApp.swift */,
+				CCFBD19D2AFD060A006206A5 /* ContentView.swift */,
+				CCFBD19F2AFD060A006206A5 /* Assets.xcassets */,
+				CCFBD1A12AFD060A006206A5 /* FlyingTime.entitlements */,
+				CCFBD1A22AFD060A006206A5 /* Preview Content */,
+			);
+			path = FlyingTime;
+			sourceTree = "<group>";
+		};
+		CCFBD1A22AFD060A006206A5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CCFBD1A32AFD060A006206A5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CCFBD1AC2AFD060B006206A5 /* FlyingTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCFBD1AD2AFD060B006206A5 /* FlyingTimeTests.swift */,
+			);
+			path = FlyingTimeTests;
+			sourceTree = "<group>";
+		};
+		CCFBD1B62AFD060B006206A5 /* FlyingTimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCFBD1B72AFD060B006206A5 /* FlyingTimeUITests.swift */,
+				CCFBD1B92AFD060B006206A5 /* FlyingTimeUITestsLaunchTests.swift */,
+			);
+			path = FlyingTimeUITests;
+			sourceTree = "<group>";
+		};
+		CCFBD1CB2AFD0639006206A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCFBD1CC2AFD0639006206A5 /* WidgetKit.framework */,
+				CCFBD1CE2AFD0639006206A5 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCFBD1D02AFD0639006206A5 /* FlyingTimeWidget */ = {
+			isa = PBXGroup;
+			children = (
+				CCFBD1D12AFD0639006206A5 /* FlyingTimeWidgetBundle.swift */,
+				CCFBD1D32AFD0639006206A5 /* FlyingTimeWidgetLiveActivity.swift */,
+				CCFBD1D52AFD0639006206A5 /* FlyingTimeWidget.swift */,
+				CCFBD1D72AFD0639006206A5 /* AppIntent.swift */,
+				CCFBD1D92AFD063A006206A5 /* Assets.xcassets */,
+				CCFBD1DB2AFD063A006206A5 /* Info.plist */,
+			);
+			path = FlyingTimeWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCFBD1972AFD060A006206A5 /* FlyingTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCFBD1BD2AFD060B006206A5 /* Build configuration list for PBXNativeTarget "FlyingTime" */;
+			buildPhases = (
+				CCFBD1942AFD060A006206A5 /* Sources */,
+				CCFBD1952AFD060A006206A5 /* Frameworks */,
+				CCFBD1962AFD060A006206A5 /* Resources */,
+				CCFBD1E22AFD063A006206A5 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCFBD1DD2AFD063A006206A5 /* PBXTargetDependency */,
+			);
+			name = FlyingTime;
+			productName = FlyingTime;
+			productReference = CCFBD1982AFD060A006206A5 /* FlyingTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCFBD1A82AFD060B006206A5 /* FlyingTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCFBD1C02AFD060B006206A5 /* Build configuration list for PBXNativeTarget "FlyingTimeTests" */;
+			buildPhases = (
+				CCFBD1A52AFD060B006206A5 /* Sources */,
+				CCFBD1A62AFD060B006206A5 /* Frameworks */,
+				CCFBD1A72AFD060B006206A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCFBD1AB2AFD060B006206A5 /* PBXTargetDependency */,
+			);
+			name = FlyingTimeTests;
+			productName = FlyingTimeTests;
+			productReference = CCFBD1A92AFD060B006206A5 /* FlyingTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCFBD1B22AFD060B006206A5 /* FlyingTimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCFBD1C32AFD060B006206A5 /* Build configuration list for PBXNativeTarget "FlyingTimeUITests" */;
+			buildPhases = (
+				CCFBD1AF2AFD060B006206A5 /* Sources */,
+				CCFBD1B02AFD060B006206A5 /* Frameworks */,
+				CCFBD1B12AFD060B006206A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCFBD1B52AFD060B006206A5 /* PBXTargetDependency */,
+			);
+			name = FlyingTimeUITests;
+			productName = FlyingTimeUITests;
+			productReference = CCFBD1B32AFD060B006206A5 /* FlyingTimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CCFBD1C92AFD0639006206A5 /* FlyingTimeWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCFBD1DF2AFD063A006206A5 /* Build configuration list for PBXNativeTarget "FlyingTimeWidgetExtension" */;
+			buildPhases = (
+				CCFBD1C62AFD0639006206A5 /* Sources */,
+				CCFBD1C72AFD0639006206A5 /* Frameworks */,
+				CCFBD1C82AFD0639006206A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyingTimeWidgetExtension;
+			productName = FlyingTimeWidgetExtension;
+			productReference = CCFBD1CA2AFD0639006206A5 /* FlyingTimeWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCFBD1902AFD060A006206A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CCFBD1972AFD060A006206A5 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					CCFBD1A82AFD060B006206A5 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = CCFBD1972AFD060A006206A5;
+					};
+					CCFBD1B22AFD060B006206A5 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = CCFBD1972AFD060A006206A5;
+					};
+					CCFBD1C92AFD0639006206A5 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = CCFBD1932AFD060A006206A5 /* Build configuration list for PBXProject "FlyingTime" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCFBD18F2AFD060A006206A5;
+			productRefGroup = CCFBD1992AFD060A006206A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCFBD1972AFD060A006206A5 /* FlyingTime */,
+				CCFBD1A82AFD060B006206A5 /* FlyingTimeTests */,
+				CCFBD1B22AFD060B006206A5 /* FlyingTimeUITests */,
+				CCFBD1C92AFD0639006206A5 /* FlyingTimeWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCFBD1962AFD060A006206A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFBD1A42AFD060A006206A5 /* Preview Assets.xcassets in Resources */,
+				CCFBD1A02AFD060A006206A5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFBD1A72AFD060B006206A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFBD1B12AFD060B006206A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFBD1C82AFD0639006206A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFBD1DA2AFD063A006206A5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCFBD1942AFD060A006206A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFBD19E2AFD060A006206A5 /* ContentView.swift in Sources */,
+				CCFBD19C2AFD060A006206A5 /* FlyingTimeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFBD1A52AFD060B006206A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFBD1AE2AFD060B006206A5 /* FlyingTimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFBD1AF2AFD060B006206A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFBD1BA2AFD060B006206A5 /* FlyingTimeUITestsLaunchTests.swift in Sources */,
+				CCFBD1B82AFD060B006206A5 /* FlyingTimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFBD1C62AFD0639006206A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFBD1D62AFD0639006206A5 /* FlyingTimeWidget.swift in Sources */,
+				CCFBD1D82AFD0639006206A5 /* AppIntent.swift in Sources */,
+				CCFBD1D42AFD0639006206A5 /* FlyingTimeWidgetLiveActivity.swift in Sources */,
+				CCFBD1D22AFD0639006206A5 /* FlyingTimeWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCFBD1AB2AFD060B006206A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCFBD1972AFD060A006206A5 /* FlyingTime */;
+			targetProxy = CCFBD1AA2AFD060B006206A5 /* PBXContainerItemProxy */;
+		};
+		CCFBD1B52AFD060B006206A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCFBD1972AFD060A006206A5 /* FlyingTime */;
+			targetProxy = CCFBD1B42AFD060B006206A5 /* PBXContainerItemProxy */;
+		};
+		CCFBD1DD2AFD063A006206A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCFBD1C92AFD0639006206A5 /* FlyingTimeWidgetExtension */;
+			targetProxy = CCFBD1DC2AFD063A006206A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CCFBD1BB2AFD060B006206A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCFBD1BC2AFD060B006206A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CCFBD1BE2AFD060B006206A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FlyingTime/FlyingTime.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlyingTime/Preview Content\"";
+				DEVELOPMENT_TEAM = Q782Q7NK6G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaeun.FlyingTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCFBD1BF2AFD060B006206A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FlyingTime/FlyingTime.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlyingTime/Preview Content\"";
+				DEVELOPMENT_TEAM = Q782Q7NK6G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaeun.FlyingTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCFBD1C12AFD060B006206A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q782Q7NK6G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaeun.FlyingTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyingTime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlyingTime";
+			};
+			name = Debug;
+		};
+		CCFBD1C22AFD060B006206A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q782Q7NK6G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaeun.FlyingTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyingTime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlyingTime";
+			};
+			name = Release;
+		};
+		CCFBD1C42AFD060B006206A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q782Q7NK6G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaeun.FlyingTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlyingTime;
+			};
+			name = Debug;
+		};
+		CCFBD1C52AFD060B006206A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q782Q7NK6G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaeun.FlyingTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlyingTime;
+			};
+			name = Release;
+		};
+		CCFBD1E02AFD063A006206A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q782Q7NK6G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlyingTimeWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FlyingTimeWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaeun.FlyingTime.FlyingTimeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCFBD1E12AFD063A006206A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q782Q7NK6G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlyingTimeWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FlyingTimeWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaeun.FlyingTime.FlyingTimeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCFBD1932AFD060A006206A5 /* Build configuration list for PBXProject "FlyingTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFBD1BB2AFD060B006206A5 /* Debug */,
+				CCFBD1BC2AFD060B006206A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCFBD1BD2AFD060B006206A5 /* Build configuration list for PBXNativeTarget "FlyingTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFBD1BE2AFD060B006206A5 /* Debug */,
+				CCFBD1BF2AFD060B006206A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCFBD1C02AFD060B006206A5 /* Build configuration list for PBXNativeTarget "FlyingTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFBD1C12AFD060B006206A5 /* Debug */,
+				CCFBD1C22AFD060B006206A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCFBD1C32AFD060B006206A5 /* Build configuration list for PBXNativeTarget "FlyingTimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFBD1C42AFD060B006206A5 /* Debug */,
+				CCFBD1C52AFD060B006206A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCFBD1DF2AFD063A006206A5 /* Build configuration list for PBXNativeTarget "FlyingTimeWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFBD1E02AFD063A006206A5 /* Debug */,
+				CCFBD1E12AFD063A006206A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCFBD1902AFD060A006206A5 /* Project object */;
+}
